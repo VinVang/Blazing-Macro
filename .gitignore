@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Private Discord information
+discord_config.json
+.env
+.env.*
+
+# Local application settings
+settings.json
+
+# Debug screenshots and logs
+logs/
+*.log
+
+# Temporary files
+*.tmp

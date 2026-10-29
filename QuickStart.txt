@@ -1,0 +1,19 @@
+BLAZING REVIVAL — NINJA ROAD v1.4 (Discord Screenshots)
+
+1. Extract whole ZIP to a folder in your personal PC account.
+2. Double-click Run-Windows.bat (Python 3.10+ required).
+3. Open Naruto Blazing Revival and select the upright, game-only area.
+4. For automatic Discord updates, paste a private Discord webhook URL under
+   'Discord screenshots', check 'Send after every run', and Save.
+5. Use 'Send test screenshot' to test your webhook.
+6. For a remote /screenshot command, create and invite your own Discord BOT
+   via Discord Developer Portal. Add Bot Token, Server ID, Your User ID and
+   optional Channel ID. Press 'Connect Discord bot'.
+7. Open Discord from your phone or PC and enter /screenshot in that server.
+   Only the approved User ID can request images. Replies are private.
+8. Uncheck 'Dry Run' and Start to automate Ninja Road.
+
+Discord setup details and security notes: see DISCORD-SETUP.md.
+Webhook alone cannot receive commands; /screenshot REQUIRES a bot.
+Keep the app running, emulator visible, and your PC awake for remote requests.
+Do NOT share discord_config.json (contains Discord secrets in plain text).
